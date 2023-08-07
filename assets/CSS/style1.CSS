@@ -1,0 +1,97 @@
+*{
+box-sizing:border-box;
+overflow-x: hidden;
+margin: 0%;
+padding: 0%;
+}
+#imgbanner{
+    width: 100%;
+    height:310px;
+    object-fit: cover;
+    object-position: 0% 30%;
+
+}
+.titulo{
+    position: absolute; top: 0%;
+    background-color: rgba(245, 245, 220, 0.507);
+    font-size: 300%;
+}
+.subtitulo1{
+    background-color: black;
+    
+}
+.subtitulo{
+    
+    color: white;
+   text-align: center;
+    
+}
+
+.nav{
+    position: relative; 
+    top:20px;
+    width: 200px;
+}
+nav a {
+    text-decoration: none;
+    display:grid;
+    padding: 15px;
+    margin: 10%;
+    width: 70%; 
+}
+#main {
+    position: relative; 
+    overflow-y: hidden;
+    margin-top: 38px;
+    right: 2%;
+}
+#main .tieve {
+    font-style: italic;
+}
+#main p{
+    position: relative; 
+    left: 5%;
+}
+#main .evento{
+    padding: 2%;
+}
+#logo1{
+    background-color: rgba(2, 2, 2, 0.466);
+    width: 9%;
+    position: absolute;
+    top: 40%; 
+    left: 75%;
+}
+#navymain{
+    display:flex;
+    overflow: hidden;
+}
+#mainaboud{
+    position: absolute; 
+    top: 62%; 
+    left: 12%;
+    width:85%;
+}
+#mainaboud section{
+    padding: 1%;
+}
+
+#mainaboud p{
+    position: relative; 
+    left:1%;
+    text-indent: 28px;
+}
+#navyaboud{
+    overflow-y:hidden;
+}
+#navycontac{
+    display: flex;
+}
+main #contac{
+    margin-top: 4%;
+    position: absolute;
+    left: 180px;
+}
+#navycontac{
+    overflow: hidden;
+}
