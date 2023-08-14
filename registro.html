@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Registration Form</title>
+    <link rel="icon" href="./assets/img/LogoMightyducks-01.png" type="image/x-icon">
+</head>
+<body>
+    <div id="con1">
+        <header id="banner">
+
+            <figure>
+                
+                 <img src="./assets/img/design1_image1.jpg" alt="banner">
+                
+            </figure>
+         
+        </header>
+        
+        <div id="titulo">
+            <h1> Aboud Mighty Ducks Hockey League</h1>
+        </div>
+
+        <div id="cnav">
+            <nav>
+                <a class="a1" href="./index.html">Home</a>
+                <a class="a1" href="./about.html">About</a>
+                <a class="a1" href="./contact.html">Contact</a>
+                <a class="a1" href="./rules.html">Rules</a>
+                <a class="a1" href="./game-info.html">Game information</a>
+                <a class="a1" href="#">Registration</a>
+            </nav>            
+        </div>
+    </div>
+    <div id="mainre">
+        <main id="main1">
+            <div id="subtitulo">
+                <h2>Registration Form</h2>
+            </div>
+
+          
+
+           <section id="section">
+            <div id="formulario">
+                <form action="./show_data.html" method="GET">
+                    <fieldset class="p">
+                        <label for="Player's Firts Name:">Player's Firts Name:</label>
+                        <input type="text" id="Player's Firts Name" name="Nombre">
+                    
+                        <label for="Last Name">Last Name:</label>
+                        <input type="text" id="Last Name" name="Apellido">
+    
+                    </fieldset>
+                    <fieldset class="p" >
+                        <label for="street address">Street Address:</label>
+                        <input type="text" id="street adress" name="Direccion">
+                    </fieldset>
+                    <fieldset class="p" >
+                        
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="Ciudad">
+    
+                        <label for="zip">Zip Code:</label>
+                        <input type="text" id="zip" name="Codigo_postal">
+    
+                    </fieldset>
+                    <fieldset class="p" >
+                        <label for="birth date">Birth Date (mm/dd/yyyy):</label>
+                        <input type="text" id="birth date" name="Fecha_de_nacimiento">
+    
+                        <label for="Gender">Gender:</label>
+                        <label>
+                            <input type="radio" name="Genero" id="genero" value="Female"> <span>Female</span>
+                        </label>
+                        <label>
+                         <input type="radio" name="Genero" id="Gender" value="Male"> 
+                         <span>Male</span> 
+                        </label>
+                    </fieldset>
+                    <fieldset class="p">
+                        <label for="grade">Grade</label>
+                        <label>
+                          <input type="radio" name="Grado" id="grade" value="Pre-School"> 
+                          <span>Pre-School</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="Grado" id="grade" value="1st"> 
+                            <span class="chiquito">1st</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="Grado" id="grade" value="2nd"> 
+                            <span class="chiquito">2nd</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="Grado" id="grade" value="3rd"> 
+                            <span class="chiquito">3rd</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="Grado" id="grade" value="4th"> 
+                            <span class="chiquito">4th</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="Grado" id="grade" value="5th"> 
+                            <span class="chiquito">5th</span>
+                        </label>
+                    </fieldset>
+    
+                    <fieldset class="linea">
+                        <legend><b>Which elementaru school do you live near?</b></legend>
+                        <label for="Closest School"><b>Closest school</b></label>
+    
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="AJ Katzenmaier">
+                            <span>AJ Katzenmaier</span>
+                        </label>
+    
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="Greenbay">
+                            <span>Greenbay</span>
+                        </label>
+                       
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="Howard A Yeager">
+                            <span>Howard A Yeager</span>
+                        </label>
+                       
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="Marjorie P Hart">
+                            <span>Marjorie P Hart</span>
+                        </label>
+                       
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="North Elementary">
+                            <span>North Elementary</span>
+                        </label>
+                       
+                        <label>
+                            <input type="radio" name="colegio_cercano" id="Closest School" value="South Elementary">
+                            <span>South Elementary</span>
+                        </label>
+                    </fieldset>
+    
+                    <fieldset class="linea">
+                        <label for="Positions"><b>What position(s) do you normally play? (check all that apply)</b></label>
+                        <label>
+                            <input type="checkbox" name="posicion" id="Positions" value="Forward">
+                            <span>Forward</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="posicion" id="Positions" value="Defense">
+                            <span>Defense</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="posicion" id="Positions" value="Midfield">
+                            <span>Midfield</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="posicion" id="Positions" value="Goalkeeper">
+                            <span>Goalkeeper</span>
+                        </label>
+                    </fieldset>
+    
+                    <fieldset class="linea">
+                        <label for="size"><b>Uniform Size</b></label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Youth Smal"> <span>Youth Smal</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Youth Medium"> <span>Youth Medium</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Youth Large"> <span>Youth Large</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Small"> <span>Small</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Medium"> <span>Medium</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Large"> <span>Large</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="talle" id="size" value="Extra-Large"> <span>Extra-Large</span>
+                        </label>
+                    </fieldset>
+                    <h4><b>Permission to Play</b></h4>
+                    <p id="permiso">I, the parent or guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated whith hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, i hereby release, discharge, and/or otherw ise indemnify MDHL, their employees and associated personnel and volunteers ,including the facilities used for practicas and  games, against any claim by or on behalf of the registrant  as a result of the registrant's partícipation in the programand/orbeing transported to or from MDHL sponsored activities,which  transportation. By signíng below, i herebyagree andauthorizethe above. ln addition, by signíng below, lalso acknowledge that i have read the cancellation policy and agree to its terms.</p>
+
+                    
+                        
+                    
+    
+                    <fieldset>
+                       
+                        
+
+                        <label for="Firma"><b>Parent/Guardian Signature</b></label>
+                        <input type="text" id="Firma" name="Firma">
+                        
+    
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="date"><b>Date</b></label>
+                        <input type="text" name="Fecha" id="date">
+                    </fieldset>
+                    <fieldset>
+                        <input id="boton" type="submit" value="Enviar">
+                    </fieldset>
+    
+                
+                </form>
+
+            </div>
+
+           
+           </section>
+                
+        
+        </main>
+    </div>
+</body>
+</html>
